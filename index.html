@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>BART – Pressure Version</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- jQuery UI -->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+  <!-- Eigenes CSS -->
+  <style>
+    #ballon {
+      width: 150px;
+      height: 150px;
+      background: crimson;
+      border-radius: 50%;
+      margin: 20px auto;
+    }
+    #controls {
+      text-align: center;
+    }
+    #slider {
+      height: 200px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="round"></div>
+
+<div id="ballon"></div>
+
+<div id="slider"></div>
+
+<div id="controls">
+  <button id="press">Pump</button>
+  <button id="collect">Collect</button>
+  <button id="gonext" style="display:none;"></button>
+</div>
+
+<div id="total">
+  <span id="total_term"></span>
+  <span id="total_value"></span>
+</div>
+
+<div id="message"></div>
+
+<div id="goOn" style="display:none;">Weiter</div>
+
+<!-- Dein Script -->
+<script src="script.js"></script>
+
+</body>
+</html>

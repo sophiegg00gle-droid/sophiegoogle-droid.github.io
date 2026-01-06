@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#balloon {
+  width: 80px;
+  height: 80px;
+  background-color: crimson;
+  border-radius: 50%;
+  margin: 30px auto;
+  transition: width 0.2s, height 0.2s;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+}
